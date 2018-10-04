@@ -1,6 +1,13 @@
+# OpenRank _Alpha_
+
 OpenRank is a free and open source alternative for websites like HackerRank, HackerEarth etc. Using this software, startups can self-host, create contests and evaluate potential candidates for job openings within their company.
 
-Join the disucssion chatroom for this project on Discord : https://discord.gg/c7pU8Rw
+Join the disucssion chatroom for this project on Discord : https://chat.coderplex.org
+
+This project is still under active development. Code contributions are welcome.
+
+[![Build Status](https://travis-ci.org/coderplex/OpenRank.svg?branch=master)](https://travis-ci.org/coderplex/OpenRank)
+
 
 ## Running :
 
@@ -17,6 +24,12 @@ To run frontend use the following commands in sequence
 `npm run dev`
 
 open http://localhost:8081/ once the server is started
+
+## Unit tests :
+
+You can run the unit tests by running following command in project folder. Make sure you install pytest module first.
+
+`python3 -m pytest`
 
 ## Resources : 
  Vue.js 
